@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import ChainsKit
 
 class ViewController: UIViewController {
 
+    lazy var bgView: UIView = {
+        var view = UIView()
+            .backgroundColor(.red)
+            .alpha(0.7)
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.addSubview(bgView)
+        bgView.frame = view.frame
     }
 
     override func didReceiveMemoryWarning() {
