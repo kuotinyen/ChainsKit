@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChainsKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ChainsKit is a library that helps you easily set-up iOS UI components with builder pattern.'
 
   s.description      = 'ChainsKit is a library that helps you easily set-up iOS UI components with builder pattern.'
