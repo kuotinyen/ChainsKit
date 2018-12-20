@@ -1,0 +1,16 @@
+PODS:
+  - ChainsKit (0.1.0)
+
+DEPENDENCIES:
+  - ChainsKit (from `../`)
+
+EXTERNAL SOURCES:
+  ChainsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChainsKit: 359ae9b556fa771dcdeb1b43b04c6fb7e37e3435
+
+PODFILE CHECKSUM: d3d6fe7d853a54045512cf5bc2baccb8a53bbf8f
+
+COCOAPODS: 1.5.3
