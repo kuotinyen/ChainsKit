@@ -21,6 +21,7 @@
 		B005890221CBEFFF00D1F42F /* UIButton+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005890121CBEFFF00D1F42F /* UIButton+Chains.swift */; };
 		B005890421CBF10900D1F42F /* UISearchBar+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005890321CBF10900D1F42F /* UISearchBar+Chains.swift */; };
 		B005890621CBF19C00D1F42F /* UICollectionView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005890521CBF19C00D1F42F /* UICollectionView+Chains.swift */; };
+		B005890A21CBF25E00D1F42F /* UIBarButtonItem+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005890921CBF25E00D1F42F /* UIBarButtonItem+Chains.swift */; };
 		C9E5277A4E4324B02360C456A8109FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E596A71790F3A70CE6EA973F3CC83A12 /* ChainsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC38C6541BA0E12E38B33A02D508640B /* ChainsKit-dummy.m */; };
 		F8F9969D6F82E6BA5711E7A2DCB762BC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469283089D201E735532BABE72754596 /* ReplaceMe.swift */; };
@@ -80,6 +81,7 @@
 		B005890121CBEFFF00D1F42F /* UIButton+Chains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Chains.swift"; sourceTree = "<group>"; };
 		B005890321CBF10900D1F42F /* UISearchBar+Chains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Chains.swift"; sourceTree = "<group>"; };
 		B005890521CBF19C00D1F42F /* UICollectionView+Chains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Chains.swift"; sourceTree = "<group>"; };
+		B005890921CBF25E00D1F42F /* UIBarButtonItem+Chains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Chains.swift"; sourceTree = "<group>"; };
 		DB63092F7671849997F7837BDFAE7328 /* Pods-ChainsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChainsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC2F300368B75126A3F6FAF12D83DE06 /* Pods-ChainsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChainsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1C95D68AC594CA03549A2402B224E99 /* Pods-ChainsKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChainsKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				B00588FF21CBEF5600D1F42F /* UITableView+Chains.swift */,
 				B005890521CBF19C00D1F42F /* UICollectionView+Chains.swift */,
 				B005890321CBF10900D1F42F /* UISearchBar+Chains.swift */,
+				B005890921CBF25E00D1F42F /* UIBarButtonItem+Chains.swift */,
 			);
 			path = "UIKit+Chains";
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				B005890421CBF10900D1F42F /* UISearchBar+Chains.swift in Sources */,
 				F8F9969D6F82E6BA5711E7A2DCB762BC /* ReplaceMe.swift in Sources */,
 				B005890021CBEF5600D1F42F /* UITableView+Chains.swift in Sources */,
+				B005890A21CBF25E00D1F42F /* UIBarButtonItem+Chains.swift in Sources */,
 				B005890621CBF19C00D1F42F /* UICollectionView+Chains.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
