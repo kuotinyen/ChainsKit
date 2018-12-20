@@ -1,0 +1,6 @@
+framework module ChainsKit {
+  umbrella header "ChainsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
