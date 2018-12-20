@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ChainsKit_Example' do
+  pod 'ChainsKit', :path => '../'
+
+  target 'ChainsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
