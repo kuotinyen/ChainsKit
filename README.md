@@ -20,6 +20,17 @@ let titleLabel: UILabel = {
 }()
 ```
 
+```swift
+lazy var stackView: UIStackView = {
+    var sv = UIStackView()
+        .axis(.horizontal)
+        .alignment(.leading)
+        .distribution(.fillEqually)
+        .spacing(10)
+    return sv
+}()
+```
+
 ## CocoaPods
 
 ```ruby

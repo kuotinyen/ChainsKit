@@ -22,7 +22,8 @@ extension UIStackView {
         return self
     }
     
-    @discardableResult public func alignment(_ alignment: UIStackView.Alignment) -> Self {
+    @discardableResult
+    public func alignment(_ alignment: UIStackView.Alignment) -> Self {
         self.alignment = alignment
         return self
     }

@@ -11,6 +11,15 @@ import ChainsKit
 
 class ViewController: UIViewController {
 
+    lazy var stackView: UIStackView = {
+        var sv = UIStackView()
+            .axis(.horizontal)
+            .alignment(.leading)
+            .distribution(.fillEqually)
+            .spacing(10)
+        return sv
+    }()
+    
     lazy var bgView: UIView = {
         var view = UIView()
             .backgroundColor(.red)
