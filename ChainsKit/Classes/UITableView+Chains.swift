@@ -22,6 +22,12 @@ extension UITableView {
     }
     
     @discardableResult
+    public func estimatedRowHeight(_ height: CGFloat) -> Self {
+        self.estimatedRowHeight = height
+        return self
+    }
+    
+    @discardableResult
     public func separatorStyle(_ separatorStyle: UITableViewCellSeparatorStyle) -> Self {
         self.separatorStyle = separatorStyle
         return self

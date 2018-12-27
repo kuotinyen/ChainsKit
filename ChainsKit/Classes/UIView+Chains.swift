@@ -15,6 +15,30 @@ extension UIView {
     // ----------------------------------------------------------------------------------
     
     @discardableResult
+    public func frame(_ frame: CGRect) -> Self {
+        self.frame = frame
+        return self
+    }
+    
+    @discardableResult
+    public func bounds(_ bounds: CGRect) -> Self {
+        self.bounds = bounds
+        return self
+    }
+    
+    @discardableResult
+    public func size(_ size: CGSize) -> Self {
+        self.frame = CGRect(x: frame.origin.x, y: frame.origin.y, width: size.width, height: size.height)
+        return self
+    }
+    
+    @discardableResult
+    public func tag(_ tag: Int) -> Self {
+        self.tag = tag
+        return self
+    }
+    
+    @discardableResult
     public func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
         self.isUserInteractionEnabled = isUserInteractionEnabled
         return self
@@ -53,6 +77,12 @@ extension UIView {
     @discardableResult
     public func tintColor(_ tintColor: UIColor) -> Self {
         self.tintColor = tintColor
+        return self
+    }
+    
+    @discardableResult
+    public func addGestureRecognizerOnView(_ recognizer: UIGestureRecognizer) -> Self {
+        self.addGestureRecognizer(recognizer)
         return self
     }
     
@@ -109,5 +139,10 @@ extension UIView {
         return self
     }
     
+    @discardableResult
+    public func zPosition(_ zPosition: CGFloat) -> Self {
+        self.layer.zPosition = zPosition
+        return self
+    }
     
 }
