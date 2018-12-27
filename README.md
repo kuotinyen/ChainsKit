@@ -31,6 +31,17 @@ lazy var stackView: UIStackView = {
 }()
 ```
 
+Even UIWindow setup:
+
+```swift
+
+let vc = UIViewController()
+
+window = UIWindow()
+    .rootViewController(vc)
+    .makeKeyAndVisibleWindow()
+```
+
 ## CocoaPods
 
 ```ruby
