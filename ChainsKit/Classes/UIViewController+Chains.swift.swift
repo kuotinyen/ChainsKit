@@ -1,5 +1,5 @@
 //
-//  UNUserNotificationCenter+Chains.swift
+//  UIViewController+Chains.swift
 //  ChainsKit
 //
 //  Created by TING YEN KUO on 2018/12/27.
