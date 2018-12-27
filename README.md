@@ -31,6 +31,18 @@ lazy var stackView: UIStackView = {
 }()
 ```
 
+```swift
+lazy var tableView: UITableView = {
+    let tv = UITableView()
+        .backgroundColor(Theme.grayColor)
+        .separatorStyle(.none)
+        .dataSource(self)
+        .delegate(self)
+
+    return tv
+}()
+```
+
 Even UIWindow setup:
 
 ```swift
