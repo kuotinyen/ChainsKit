@@ -16,7 +16,7 @@ extension UIBarButtonItem {
     }
     
     @discardableResult
-    public func style(_ style: UIBarButtonItemStyle) -> Self {
+    public func style(_ style: UIBarButtonItem.Style) -> Self {
         self.style = style
         return self
     }

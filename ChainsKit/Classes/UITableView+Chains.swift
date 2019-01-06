@@ -28,7 +28,7 @@ extension UITableView {
     }
     
     @discardableResult
-    public func separatorStyle(_ separatorStyle: UITableViewCellSeparatorStyle) -> Self {
+    public func separatorStyle(_ separatorStyle: UITableViewCell.SeparatorStyle) -> Self {
         self.separatorStyle = separatorStyle
         return self
     }

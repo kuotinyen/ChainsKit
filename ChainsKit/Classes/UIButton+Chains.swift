@@ -10,7 +10,7 @@ import UIKit
 extension UIButton {
     
     @discardableResult
-    public func image(_ image: UIImage, for state: UIControlState) -> Self {
+    public func image(_ image: UIImage, for state: UIControl.State) -> Self {
         self.setImage(image, for: state)
         self.setTitle(nil, for: state)
         return self
@@ -23,7 +23,7 @@ extension UIButton {
     }
     
     @discardableResult
-    public func title(_ title: String, for state: UIControlState) -> Self {
+    public func title(_ title: String, for state: UIControl.State) -> Self {
         self.setImage(nil, for: state)
         self.setTitle(title, for: state)
         return self
