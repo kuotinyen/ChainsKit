@@ -23,6 +23,7 @@
 		B005892E21CC00A200D1F42F /* UICollectionView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */; };
 		B005893021CC02DA00D1F42F /* UIBarButtonItem+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */; };
 		B005893621CCCC3100D1F42F /* UIStackView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005893521CCCC3000D1F42F /* UIStackView+Chains.swift */; };
+		B061F1D021ED87960069C044 /* UINavigationBar+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */; };
 		B0BFA67021D4AE0F002F1C6B /* UIWindow+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFA66F21D4AE0F002F1C6B /* UIWindow+Chains.swift */; };
 		B0BFA67C21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFA67B21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift */; };
 		B0FD4FC721D51D8C00D57B3E /* UIScrollView+Chains.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD4FC621D51D8C00D57B3E /* UIScrollView+Chains.swift.swift */; };
@@ -90,6 +91,7 @@
 		B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Chains.swift"; path = "ChainsKit/Classes/UICollectionView+Chains.swift"; sourceTree = "<group>"; };
 		B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Chains.swift"; path = "ChainsKit/Classes/UIBarButtonItem+Chains.swift"; sourceTree = "<group>"; };
 		B005893521CCCC3000D1F42F /* UIStackView+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+Chains.swift"; path = "ChainsKit/Classes/UIStackView+Chains.swift"; sourceTree = "<group>"; };
+		B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+Chains.swift"; path = "ChainsKit/Classes/UINavigationBar+Chains.swift"; sourceTree = "<group>"; };
 		B0BFA66F21D4AE0F002F1C6B /* UIWindow+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWindow+Chains.swift"; path = "ChainsKit/Classes/UIWindow+Chains.swift"; sourceTree = "<group>"; };
 		B0BFA67B21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UNUserNotificationCenter+Chains.swift.swift"; path = "ChainsKit/Classes/UNUserNotificationCenter+Chains.swift.swift"; sourceTree = "<group>"; };
 		B0FD4FC621D51D8C00D57B3E /* UIScrollView+Chains.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Chains.swift.swift"; path = "ChainsKit/Classes/UIScrollView+Chains.swift.swift"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				B005892121CC00A200D1F42F /* UITableView+Chains.swift */,
 				B0FD4FCC21D5203100D57B3E /* UITableViewCell+Chains.swift.swift */,
 				B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */,
+				B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */,
 				B0FD4FC821D51EA800D57B3E /* UINavigationItem+Chains.swift.swift */,
 				B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */,
 				B005891F21CC00A100D1F42F /* UISearchBar+Chains.swift */,
@@ -410,6 +413,7 @@
 				B0FD4FCF21D520AD00D57B3E /* MKMapView+Chains.swift.swift in Sources */,
 				B005892821CC00A200D1F42F /* UISearchBar+Chains.swift in Sources */,
 				B005893621CCCC3100D1F42F /* UIStackView+Chains.swift in Sources */,
+				B061F1D021ED87960069C044 /* UINavigationBar+Chains.swift in Sources */,
 				B0FD4FC921D51EA800D57B3E /* UINavigationItem+Chains.swift.swift in Sources */,
 				B005892721CC00A200D1F42F /* UIImageView+Chains.swift in Sources */,
 				B005892A21CC00A200D1F42F /* UITableView+Chains.swift in Sources */,
