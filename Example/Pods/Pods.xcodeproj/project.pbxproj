@@ -23,6 +23,7 @@
 		B005892E21CC00A200D1F42F /* UICollectionView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */; };
 		B005893021CC02DA00D1F42F /* UIBarButtonItem+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */; };
 		B005893621CCCC3100D1F42F /* UIStackView+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005893521CCCC3000D1F42F /* UIStackView+Chains.swift */; };
+		B05FA00F2223C36D006FF639 /* UICollectionViewFlowLayout+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05FA00E2223C36D006FF639 /* UICollectionViewFlowLayout+Chains.swift */; };
 		B061F1D021ED87960069C044 /* UINavigationBar+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */; };
 		B0BFA67021D4AE0F002F1C6B /* UIWindow+Chains.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFA66F21D4AE0F002F1C6B /* UIWindow+Chains.swift */; };
 		B0BFA67C21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BFA67B21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift */; };
@@ -91,6 +92,7 @@
 		B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Chains.swift"; path = "ChainsKit/Classes/UICollectionView+Chains.swift"; sourceTree = "<group>"; };
 		B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Chains.swift"; path = "ChainsKit/Classes/UIBarButtonItem+Chains.swift"; sourceTree = "<group>"; };
 		B005893521CCCC3000D1F42F /* UIStackView+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+Chains.swift"; path = "ChainsKit/Classes/UIStackView+Chains.swift"; sourceTree = "<group>"; };
+		B05FA00E2223C36D006FF639 /* UICollectionViewFlowLayout+Chains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewFlowLayout+Chains.swift"; sourceTree = "<group>"; };
 		B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+Chains.swift"; path = "ChainsKit/Classes/UINavigationBar+Chains.swift"; sourceTree = "<group>"; };
 		B0BFA66F21D4AE0F002F1C6B /* UIWindow+Chains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIWindow+Chains.swift"; path = "ChainsKit/Classes/UIWindow+Chains.swift"; sourceTree = "<group>"; };
 		B0BFA67B21D4EC81002F1C6B /* UNUserNotificationCenter+Chains.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UNUserNotificationCenter+Chains.swift.swift"; path = "ChainsKit/Classes/UNUserNotificationCenter+Chains.swift.swift"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				B005892121CC00A200D1F42F /* UITableView+Chains.swift */,
 				B0FD4FCC21D5203100D57B3E /* UITableViewCell+Chains.swift.swift */,
 				B005892521CC00A200D1F42F /* UICollectionView+Chains.swift */,
+				B05FA00E2223C36D006FF639 /* UICollectionViewFlowLayout+Chains.swift */,
 				B061F1CF21ED87950069C044 /* UINavigationBar+Chains.swift */,
 				B0FD4FC821D51EA800D57B3E /* UINavigationItem+Chains.swift.swift */,
 				B005892621CC00A200D1F42F /* UIBarButtonItem+Chains.swift */,
@@ -420,6 +423,7 @@
 				B0FD4FD121D522A800D57B3E /* SFSafariViewController+Chains.swift.swift in Sources */,
 				B005893021CC02DA00D1F42F /* UIBarButtonItem+Chains.swift in Sources */,
 				B0FD4FCB21D51F8C00D57B3E /* UIViewController+Chains.swift.swift in Sources */,
+				B05FA00F2223C36D006FF639 /* UICollectionViewFlowLayout+Chains.swift in Sources */,
 				B005892D21CC00A200D1F42F /* UIButton+Chains.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
