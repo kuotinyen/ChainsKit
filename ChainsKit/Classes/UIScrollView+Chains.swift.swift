@@ -10,7 +10,7 @@ import UIKit
 extension UIScrollView {
     
     @discardableResult
-    public func delegate(_ delegate: UIScrollViewDelegate) -> Self {
+    public func scrollViewDelegate(_ delegate: UIScrollViewDelegate) -> Self {
         self.delegate = delegate
         return self
     }

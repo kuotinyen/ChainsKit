@@ -10,16 +10,17 @@ import UIKit
 extension UINavigationBar {
     
     @discardableResult
-    public func titleTextAttributes(_ attributes: [NSAttributedString.Key : Any]?) -> Self {
-        self.titleTextAttributes = attributes
+    public func titleTextAttributes(_ attributes: [NSAttributedString.Key : Any]) -> Self {
+        titleTextAttributes = attributes as [NSAttributedString.Key : Any]
         return self
     }
     
     @available(iOS 11.0, *)
     @discardableResult
-    public func largeTitleTextAttributes(_ attributes: [NSAttributedString.Key : Any]?) -> Self {
-        self.largeTitleTextAttributes = attributes
+    public func largeTitleTextAttributes(_ attributes: [NSAttributedString.Key : Any]) -> Self {
+        largeTitleTextAttributes = attributes as [NSAttributedString.Key: Any]
         return self
     }
     
 }
+
