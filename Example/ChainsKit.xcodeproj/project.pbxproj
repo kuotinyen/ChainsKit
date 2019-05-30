@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B03DED3B229FE2D00058A80C /* ChainsKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B03DED3A229FE2CF0058A80C /* ChainsKit.podspec */; };
 		BA96722D9F48CBA1BBA1D36E /* Pods_ChainsKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FA07792EB67D0CCA93495E /* Pods_ChainsKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,6 @@
 		025FE573BB5B1B8A55032A7F /* Pods-ChainsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChainsKit_Tests/Pods-ChainsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3679B23B9B2011289E0C821B /* Pods-ChainsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainsKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChainsKit_Tests/Pods-ChainsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C623442CDF92203E10FC171 /* Pods-ChainsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainsKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChainsKit_Example/Pods-ChainsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E9D0194DB18D56AB970C3F3 /* ChainsKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ChainsKit.podspec; path = ../ChainsKit.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ChainsKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainsKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +45,7 @@
 		9ABF0DF5A7A4DB455185B805 /* Pods_ChainsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53298E9241EEBEFD95F9509 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADCB3CA0BCA90FC7B52F9C15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B03DED3A229FE2CF0058A80C /* ChainsKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ChainsKit.podspec; path = ../ChainsKit.podspec; sourceTree = "<group>"; };
 		D8FA07792EB67D0CCA93495E /* Pods_ChainsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChainsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F187487B482327D24605BD /* Pods-ChainsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChainsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChainsKit_Example/Pods-ChainsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +133,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4E9D0194DB18D56AB970C3F3 /* ChainsKit.podspec */,
+				B03DED3A229FE2CF0058A80C /* ChainsKit.podspec */,
 				A53298E9241EEBEFD95F9509 /* README.md */,
 				ADCB3CA0BCA90FC7B52F9C15 /* LICENSE */,
 			);
@@ -249,6 +250,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B03DED3B229FE2D00058A80C /* ChainsKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
